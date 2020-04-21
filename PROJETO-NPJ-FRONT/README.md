@@ -1,65 +1,17 @@
-# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
+INTRODUÇÃO
+ 
+O presente trabalho abordará sobre a gestão de projetos no desenvolvimento de Software, na disciplina de Projeto Integrado I para alunos do primeiro semestre do curso de Análise e Desenvolvimento de Sistemas da UNOPAR.
+Os alunos recém-chegados ao curso se deparam com uma nova gama de conteúdo específicos da área de Tecnologia da Informação com foco nas disciplinas iniciais de desenvolvimento de softwares, algoritmos, redes de computadores, linguagens de computação, engenharia de software e disciplinas afins, apresentando um novo mundo que deve ser assimilado para que permita a produção efetiva de conhecimento.
+A disciplina de Projeto Integrado é ofertada a todos os semestres do curso Superior de Análise e Desenvolvimento de Sistemas, e propõe integração na pesquisa e desenvolvimento de um Software de Gestão voltado à solução de problemas dos demais cursos do Campus.
+Para o semestre 1 (um) de 2019 o projeto de pesquisa iniciado é o desenvolvimento de Software de Controle de Núcleo de Prática Jurídicas do Curso de Direito que tem como “clientes” os professores, alunos e população atendidos através do sistema NPJ do campus. Este projeto será desenvolvido ao longo de todos os semestres até a conclusão da Graduação de cada aluno. No desenvolvimento veremos como se dá essa integração e quais podem ser os benefícios para os alunos ao longo de seu curso.
 
-[SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+DECLARAÇÃO DOS OBJETIVOS DO SOFTWARE
 
-For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
+O projeto tem como objetivo a integração dos Cursos de Análise e Desenvolvimento de sistemas (ADS) e curso de Direito da Universidade UNOPAR para a criação de um software que auxilie ambos os cursos no aprendizado. No caso de ADS sobre a organização de uma equipe para a realização de um projeto de T.I. na prática.
 
-## Preview
+JUSTIFICATIVA DO TRABALHO
 
-[![SB Admin 2 Preview](https://startbootstrap.com/assets/img/screenshots/themes/sb-admin-2.png)](https://blackrockdigital.github.io/startbootstrap-sb-admin-2/)
+ A disciplina Projeto Integrado tem como justificativa principal ofertar ao aluno a oportunidade de aplicar “na prática” os conhecimentos teóricos adquiridos nas demais disciplinas que compõe o curso de Análise e Desenvolvimento de Sistemas para o efetivo desenvolvimento de um Software.
 
-**[Launch Live Preview](https://blackrockdigital.github.io/startbootstrap-sb-admin-2/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-sb-admin-2/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin-2.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin-2)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
--   [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/sb-admin-2/)
--   Install via npm: `npm i startbootstrap-sb-admin-2`
--   Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git`
--   [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2)
-
-## Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-### Gulp Tasks
-
--   `gulp` the default task that builds everything
--   `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
--   `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
--   `gulp js` minifies the themes JS file
--   `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
--   <https://startbootstrap.com>
--   <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
--   <http://davidmiller.io>
--   <https://twitter.com/davidmillerskt>
--   <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+Assim a forma de aprendizado mais comum para este tipo de graduação que é desenvolver projetos de software de forma individual, geralmente apresentando um trabalho na conclusão de curso se transforma em trabalho de equipe, buscando se assemelhar a uma empresa de desenvolvimento, onde os alunos de diferentes semestres, com seus diferentes perfis, especialidades e conhecimentos contribuem para o projeto, realizando trocas de informações e soluções de forma colaborativa, e em grande parte o autogerenciamento e uso das ferramentas corrobora com o sucesso do projeto.
+A partir do início da disciplina passam a ter ciência dessas ferramentas, metodologias e processos e ao longo do curso não aprendem a não focar apenas no desenvolvimento do código para chegar a um sistema utilizável (programação), mas em todo o contexto que o desenvolvimento de qualquer projeto está envolvido, promovendo ganhos em equalização efetiva de tempo, recursos e satisfação dos clientes.
