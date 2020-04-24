@@ -10589,7 +10589,7 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("/img/unopar-logo.jpg");
+  background: url("img/unopar-logo.jpg");
   background-position: center;
   background-size: cover;
 }

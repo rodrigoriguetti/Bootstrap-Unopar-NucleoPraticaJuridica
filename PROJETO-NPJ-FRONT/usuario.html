@@ -319,70 +319,68 @@
                 onkeyup="this.value = this.value.toUpperCase();" required>
               </div>
 
-              <div class=" col-sm-12 col-md-6"">
+              <div class=" col-sm-12 col-md-6">
                   <span class=" first_title">Sobrenome</span>
                 <input type="text" class="form-control form-control-user" id="sobrenome" autocomplete="off" 
                 onkeyup="this.value = this.value.toUpperCase();" required>
               </div>
 
-              <div class=" col-sm-12 col-md-6"">
+              <div class=" col-sm-12 col-md-6">
                 <span class=" first_title">CPF</span>
                 <input type="number" class="form-control form-control-user" id="cpf" autocomplete="off" required>
               </div>
 
-              <div class=" col-sm-12 col-md-6"">
+              <div class=" col-sm-12 col-md-6">
               <span class=" first_title">Numero da OAB</span>
                 <input type="number" class="form-control form-control-user" id="senha" autocomplete="off" required>
               </div>
 
-              <div class=" col-sm-12 col-md-6"">
+              <div class=" col-sm-12 col-md-6">
             <span class=" first_title">Numero de celular</span>
-                <input type="password" class="form-control form-control-user" id="rsenha" autocomplete="off" required>
+                <input type="number" class="form-control form-control-user" id="rsenha" autocomplete="off" required>
               </div>
 
-              <div class="col-sm-12 col-md-6">
-                <span class="first_title">Selecione nível de acesso</span>
-                <div class="row">
-                  <div class="col-md-6 select-outline">
-                
-                    <select class="browser-default custom-select">
-                      <option selected>Estagiario</option>
-                      <option value="1">Professor</option>
-                      <option value="2">Administrativo</option>
+                  <div class="col-sm-12 col-md-6 select-outline">
+                    <span class=" first_title">Nível de acesso</span>
+
+                    <div class="controls">
+                    <select class="form-control form-control-user" id="fizdo0" required ><option value="">-- selecione um item --</option>
+                      <option value="Estagiario">Estagiário</option>
+                      <option value="Professor">Professor</option>
+                      <option value="Administrador">Administrador</option>
                     </select>
-                    
-                
+                    </div>
+
                   </div>
-                </div>
-              </div>
+             
               <div class="col-sm-12 col-md-6">
                 <span class="first_title">E-mail</span>
                 <input type="text" class="form-control form-control-user" id="nome" autocomplete="off" 
                 onkeyup="this.value = this.value.toUpperCase();" required>
               </div>
+
               <div class="col-sm-12 col-md-6">
                 <span class="first_title">Confirmar E-mail</span>
                 <input type="text" class="form-control form-control-user" id="nome" autocomplete="off" 
                 onkeyup="this.value = this.value.toUpperCase();" required>
               </div>
+
               <div class="col-sm-12 col-md-6">
                 <span class="first_title">Senha</span>
-                <input type="text" class="form-control form-control-user" id="nome" autocomplete="off" 
-                onkeyup="this.value = this.value.toUpperCase();" required>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <span class="first_title">Repita a senha</span>
-                <input type="text" class="form-control form-control-user" id="nome" autocomplete="off" 
+                <input type="password" class="form-control form-control-user" id="nome" autocomplete="off" 
                 onkeyup="this.value = this.value.toUpperCase();" required>
               </div>
 
-           
-              
+              <div class="col-sm-12 col-md-6">
+                <span class="first_title">Repita a senha</span>
+                <input type="password" class="form-control form-control-user" id="nome" autocomplete="off" 
+                onkeyup="this.value = this.value.toUpperCase();" required>
+              </div>
             </br>
 
             
-              <div class="btn btn-block col-sm-12 col-md-3" >
-                <button type="submit" class="btn btn-primary btn-user btn-block" id='botao'>
+              <div class="btn btn-block col-md-6 offset-md-3" >
+                <button type="submit" class="btn btn-primary btn-user btn-block"ali>
                   Salvar
                 </button>
               </div>
@@ -392,6 +390,7 @@
           </form>
         </div>
       </div>
+      
       <!-- End of Main Content -->
 
       <!-- Footer -->
