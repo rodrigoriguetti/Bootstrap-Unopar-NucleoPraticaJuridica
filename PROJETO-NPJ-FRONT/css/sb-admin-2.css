@@ -10544,6 +10544,43 @@ a:focus {
   color: #d1d3e2;
 }
 
+.imprimir1{
+  position: absolute;
+  top: 150px;
+  left: 800px;
+  
+}
+
+.imprimir2{
+  position: absolute;
+  top: 205px;
+  left: 800px;
+}
+
+.imprimir3{
+  position: absolute;
+  top: 260px;
+  left: 800px;
+}
+
+.imprimir4{
+  position: absolute;
+  top: 315px;
+  left: 800px;
+}
+
+.imprimir5{
+  position: absolute;
+  top: 370px;
+  left: 800px;
+}
+
+.imprimir6{
+  position: absolute;
+  top: 425px;
+  left: 800px;
+}
+
 .card .card-header[data-toggle="collapse"].collapsed {
   border-radius: 0.35rem;
 }
