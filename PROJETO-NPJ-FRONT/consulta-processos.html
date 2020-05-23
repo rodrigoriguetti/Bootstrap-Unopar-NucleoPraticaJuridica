@@ -14,9 +14,12 @@
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
+
+   <!-- Custom styles for this page -->
+   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
 </head>
 
@@ -81,7 +84,7 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Consultar Processos</a>
+            <a class="collapse-item" href="consultaProcessos.html">Consultar Processos</a>
             <a class="collapse-item" href="utilities-border.html">Consultar Clientes</a>
             <a class="collapse-item" href="utilities-animation.html">Relatórios</a>
             <a class="collapse-item" href="modeloDocumentos.html">Modelos de Documentos</a>
@@ -289,128 +292,122 @@
         </nav>
         <!-- End of Topbar -->
 
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
+         <!-- Begin Page Content -->
+         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Modelos de Documentos</h1>
+          <h1 class="h3 mb-2 text-gray-800">Consulta de Processos</h1>
+         
 
-          <div class="row">
-            <div class="col-5 col-sm-4 col-md-4 h4 mb-0 text-gray-800">Declaração de Probeza</div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Visualizar">search</i>
-              </button>
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Tabela de Processos Cadastrados</h6>
             </div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Imprimir">print</i>              
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-5 col-sm-4 col-md-4 h4 mb-0 text-gray-800">Termo de Compromisso</div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Visualizar">search</i>
-              </button>
-            </div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Imprimir">print</i>              
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-5 col-sm-4 col-md-4 h4 mb-0 text-gray-800">Histórico de Cliente</div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Visualizar">search</i>
-              </button>
-            </div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Imprimir">print</i>              
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-5 col-sm-4 col-md-4 h4 mb-0 text-gray-800">Autorização para retirada de Autos</div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Visualizar">search</i>
-              </button>
-            </div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Imprimir">print</i>              
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-5 col-sm-4 col-md-4 h4 mb-0 text-gray-800">Ficha Sócio-Econômica</div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Visualizar">search</i>
-              </button>
-            </div>
-            <div class="col-2 col-sm-1 offset-sm-2 col-md-1 offset-md-1 ">
-              <button type="button" class="btn btn-secondary">
-              <i class="material-icons" data-toggle="tooltip" data-placement="top" title="Imprimir">print</i>              
-              </button>
-            </div>
-          </div>
-          
-
-            <!-- Em const    
-            <div class="container">
-                <div class="row">
-                  <div class="col order-last">
-                    <div class="btn btn-block" >
-                      <button type="submit" class="btn btn-primary btn-user btn-block"ali>
-                        Imprimir
-                      </button>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <h1 class="h4 mb-0 text-gray-800">Ficha Sócio-Econômica</h1>
-                  </div>
-                  <div class="col order-first">
-                    <div class="btn btn-block" >
-                      <button type="button" class="btn btn-primary btn-user btn-block"ali>
-                        Visualizar
-                      </button>
-                    </div>
-                  </div>
-                </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Cliente</th>
+                      <th>CPF</th>
+                      <th>Tipo do Processo</th>
+                      <th>Data Inicial</th>
+                      <th>Situação do Processo</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Cliente</th>
+                      <th>CPF</th>
+                      <th>Tipo do Processo</th>
+                      <th>Data Inicial</th>
+                      <th>Situação do Processo</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Amanda</td>
+                      <td>José Freitas</td>
+                      <td>11123418967</td>
+                      <td>ACP - Ação Civil Pública</td>
+                      <td>23/05/2020</td>
+                      <td>Em Análise</td>
+                    </tr>
+                    <tr>
+                      <td>Giovani</td>
+                      <td>Maria Nunes</td>
+                      <td>11112567967</td>
+                      <td>ACum - Ação de Cumprimento</td>
+                      <td>23/05/2020</td>
+                      <td>Aprovado</td>
+                    </tr>
+                    <tr>
+                      <td>Rogério</td>
+                      <td>Ana Julia Rodrigues</td>
+                      <td>020012568063</td>
+                      <td>AI - Agrave de Instrumento</td>
+                      <td>21/05/2020</td>
+                      <td>Reprovado</td>
+                    </tr>
+                    <tr>
+                      <td>Gabriel</td>
+                      <td>Adalceu Fagundes</td>
+                      <td>123012569061</td>
+                      <td>Atent - ATentado</td>
+                      <td>12/05/2020</td>
+                      <td>Reprovado</td>
+                    </tr>
+                    <tr>
+                      <td>Vivaldo</td>
+                      <td>Larissa Manoela</td>
+                      <td>123012569060</td>
+                      <td>RTAIç - Ação Trabalhista - Rito Súmario</td>
+                      <td>10/05/2020</td>
+                      <td>Aprovado</td>
+                    </tr>
+                    <tr>
+                      <td>Bianca</td>
+                      <td>Rodrigo Alves</td>
+                      <td>555012569300</td>
+                      <td>RTOrd - Ação Trabalhisto - Rito</td>
+                      <td>28/04/2020</td>
+                      <td>Em Análise</td>
+                    </tr>
+                    <tr>
+                      <td>Lucas</td>
+                      <td>Vitória Silva</td>
+                      <td>031012569299</td>
+                      <td>RTPosse - Reintegração/Manutenção</td>
+                      <td>01/05/2020</td>
+                      <td>Em Análise</td>
+                    </tr>
+                    <tr>
+                      <td>Paulo</td>
+                      <td>Carla Amianto</td>
+                      <td>031095649065</td>
+                      <td>RTSum - Ação Trabalhista - Rito</td>
+                      <td>05/05/2020</td>
+                      <td>Em Análise</td>
+                    </tr>
+                    <tr>
+                      <td>Nina</td>
+                      <td>Ana Lurdes</td>
+                      <td>222095763265</td>
+                      <td>Seques - Sequestro</td>
+                      <td>08/05/2020</td>
+                      <td>Reprovado</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-
-            -->
-
             </div>
-            
-            
-
-            
           </div>
 
-          <form name="empresa" action="#" class="radius" method="post">
-
-            <div class="form-group row was-validated ">
-              
-            </br>
-
-            
-              
-              
-            </div>
-
-          </form>
         </div>
+        <!-- /.container-fluid -->
 
       </div>
       <!-- End of Main Content -->
@@ -455,19 +452,24 @@
   </div>
 </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script>
-    $('[data-toggle="tooltip"]').tooltip();
-  </script>
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+ <!-- Bootstrap core JavaScript-->
+ <script src="vendor/jquery/jquery.min.js"></script>
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+ <!-- Core plugin JavaScript-->
+ <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+ <!-- Custom scripts for all pages-->
+ <script src="js/sb-admin-2.min.js"></script>
+
+ <!-- Page level plugins -->
+ <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+ <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+ <!-- Page level custom scripts -->
+ <script src="js/demo/datatables-demo.js"></script>
 
 </body>
+
 
 </html>

@@ -10630,6 +10630,17 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
+.material-icons {
+  font-size: 30px;
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
 
 .bg-register-image {
   background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
